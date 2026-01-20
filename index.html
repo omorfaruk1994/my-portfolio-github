@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="styles/portfolio.css">
 </head>
 <body class="font-open-sans">
     <header>
-        <nav>
+        <nav class="container">
             <div class="logo">
                 <h2>Ma<span class="color-orange">r</span>y</h2>
             </div>
@@ -26,9 +27,9 @@
          <h2>Hi, I  am</h2>
          <h1>Mary Hardy</h1>
             <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-            <div>
-                <button class="btn">Download cv</button>
-                <button class="btn">Contact</button>
+            <div class="right-buttons">
+                <button class="btn"><i class="fa-solid fa-download"></i>Download CV</button>
+                <button class="btn"><i class="fa-solid fa-phone"></i>Contact</button>
             </div>
             </div>
             <div class="banner-image">
@@ -37,7 +38,7 @@
         </section>
     </header>
     <section id="about">
-        <div class="about-container">
+        <div class="about-container container">
             <div class="section-heading">
 
                 <h>About me</h>
@@ -65,7 +66,7 @@
         </div>
     </section>
     <section id="skills">
-        <div class="skills-container">
+        <div class="skills-container container">
         <div class="section-heading">
             <h2>What I do</h2>
             <p>I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
@@ -97,7 +98,7 @@
         <div class="section-heading">
             <h2>A summary of My Resume</h2>
         </div>
-        <div class="resume-container">
+        <div class="resume-container container">
             <div class="education">
             <h2 class="section-title">My education</h2>
             <div class="resume-card">
@@ -151,10 +152,38 @@
                  Aenean commodo ligula eget dolor.</p>
             </div>
             <hr>
-
             </div>
-        </div>
 
+        </div>
+        <div class="text-center">
+             <button class="btn">Download CV</button>
+        </div>
     </section>
+    <footer>
+        <section class="footer-container">
+            <div class="social">
+                <h2>Lets Connect</h2>
+                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <div class="icons">
+                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
+                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                </div>
+            </div>
+            <form class="form">
+                <h2>Let’s Message me</h2>
+                <div class="">
+                    <input type="text" name="" id="" placeholder="Your name">
+                </div>
+                <div class="">
+                    <input type="text" name="" id="" placeholder="Your Email">
+                </div>
+                 <div class="">
+                    <textarea rows="10" name="" id="" placeholder="Message"></textarea>
+                 </div>
+                 <input class="btn" type="submit" value="Submit">
+            </form>
+        </section>
+    </footer>
 </body>
 </html>
